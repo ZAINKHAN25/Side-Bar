@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: aliceblue;
+    padding-right: 2vw;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.bar{
+    float: right;
+    color: lightblue;
+    transition: 1s ease-in-out;
+    margin: 3vw 3vh;
+}
+
+.bar:hover{
+    color: rgb(0, 103, 141);
+}
+
+.sidebar{
+    width: 30vw;
+    height: 100vh;
+    background-color: white;
+    padding: 2vh 2vw;
+    position: absolute;
+}
+
+.x{
+    float: right;
+    color: red;
+    font-weight: bolder;
+}
+
+.companyname{
+    font-size: 1.8vw;
+    font-weight: 600;
+    margin-bottom: 3vh;
+    font-size: 3vw;
+}
+
+.hover{
+    color: lightslategray;
+    font-size: 3vw;
+    font-weight: 200;
+    margin-bottom: 3vh;
+    padding: 2vh 2vh;
+    transition: all .5s ease-in-out 0s;
+}
+
+.hover:hover{
+    background-color: rgb(0, 103, 141);
+    color: lightblue;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 4vh;
+    width: 25vw;
+    overflow: hidden;
+}
+
+.hover-2{
+    color: rgb(0, 103, 141);
+    transition: .5s ease-in-out 0s;
+}
+
+.hover-2:hover{
+    color: rgb(0, 0, 0);
+}
