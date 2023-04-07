@@ -31,7 +31,7 @@ body{
     background-color: white;
     padding: 2vh 2vw;
     position: absolute;
-    transition: 1s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
 .x{
@@ -39,11 +39,11 @@ body{
     color: red;
     font-weight: bolder;
     transform: rotate(0deg);
-    transition: 1s ease-in-out;
+    transition: .6s ease-in-out;
 }
 
 .x:hover{
-    transform: rotate(360deg);
+    transform: rotate(180deg);
 }
 
 .companyname{
@@ -55,7 +55,7 @@ body{
 
 .hover{
     color: lightslategray;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 200;
     margin-bottom: 3vh;
     padding: 2vh 2vh;
@@ -91,3 +91,35 @@ body{
     transform: translateX(-50vw);
     transition: 1s ease-in-out;
 }
+
+/* CSS styles for mobile devices */
+@media (max-width: 767px) {
+    .barimg{
+        display: none;
+    }
+  }
+  
+  /* CSS styles for tablets and larger devices */
+  @media (min-width: 768px) {
+      /* Add your tablet styles here */
+      .barimg{
+          display: none;
+      }
+  }
+  
+  /* CSS styles for desktop and larger devices */
+  @media (min-width: 992px) {
+      /* Add your desktop styles here */
+      .barimg{
+          display: none;
+      }
+    }
+  
+    /* CSS styles for large desktop and other large devices */
+    @media (min-width: 1200px) {
+      .barimg{
+          display: none;
+      }
+    /* Add your large desktop styles here */
+  }
+  
