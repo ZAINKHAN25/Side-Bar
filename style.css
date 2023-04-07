@@ -71,12 +71,16 @@ body{
     position: absolute;
     bottom: 4vh;
     width: 25vw;
-    overflow: hidden;
+    height: max-content;
+    overflow-x: hidden;
+    font-size: 1vw;
 }
 
 .hover-2{
     color: rgb(0, 103, 141);
     transition: .5s ease-in-out 0s;
+    margin: 0 .5vw;
+    text-align: center;
 }
 
 .hover-2:hover{

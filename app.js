@@ -1,10 +1,3 @@
-// var bar = document.querySelector('.barimg')
-// var openClose = document.querySelector('.openClose')
-// var sidebar = document.querySelector('.sidebar')
-
-// bar.addEventListener("click", ()=>{
-//     sidebar.classList.toggle 
-// })
 
 var bar = document.querySelector('.barimg');
 var openClose = document.querySelector('.openClose');
