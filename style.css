@@ -14,14 +14,14 @@ body{
     height: 100vh;
 }
 
-.bar{
+.barimg{
     float: right;
     color: lightblue;
     transition: 1s ease-in-out;
     margin: 3vw 3vh;
 }
 
-.bar:hover{
+.barimg:hover{
     color: rgb(0, 103, 141);
 }
 
@@ -31,12 +31,19 @@ body{
     background-color: white;
     padding: 2vh 2vw;
     position: absolute;
+    transition: 1s ease-in-out;
 }
 
 .x{
     float: right;
     color: red;
     font-weight: bolder;
+    transform: rotate(0deg);
+    transition: 1s ease-in-out;
+}
+
+.x:hover{
+    transform: rotate(360deg);
 }
 
 .companyname{
@@ -74,4 +81,9 @@ body{
 
 .hover-2:hover{
     color: rgb(0, 0, 0);
+}
+
+.openClose{
+    transform: translateX(-50vw);
+    transition: 1s ease-in-out;
 }
